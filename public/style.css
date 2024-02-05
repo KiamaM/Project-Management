@@ -11,13 +11,140 @@
 
 /* login page style */
 
+.parentDiv{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 100vw;  
+  height: 100vh;
+  /* border: 1px solid blue; */
+
+}
+
+.welcome{
+  display: flex;
+  position: relative;
+  left: 10%;
+  width: 60%;
+  height: 60%;
+}
+
+.track{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  background-color: #2B6C37;
+}
+
+.track h2{
+  font-size: 40px;
+  padding-left: 30px;
+  color: #B7B3DD;
+}
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid blue; */
+}
+
+#userName{
+  margin-bottom: 20px;
+}
+
+#password{
+  margin-bottom: 20px;
+}
+
+#signIn{
+  margin-top: 20px;
+  position: relative;
+  left: 10%;
+  border-radius: 40px;
+  width: 50%;
+  background-color: #F1950A;
+}
+.loginBtn{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  width: 100%;
+  
+}
+
+
+#forgot{
+  position: relative;
+  left: 8%;
+}
+
+.register{
+  position: relative;
+  left: 33%;
+  width: 60%;
+  height: 37px;
+  border-radius: 40px;
+  background-color: #F1950A;
+}
+
+.registerBtn{
+    /* border: 1px solid blue; */
+    width: 60%;
+
+}
+
+input{
+  padding: 10px;
+}
+
+.uName{
+  display: flex;
+  gap: 22%;
+}
+
+.pd{
+  display: flex;
+  gap: 23%;
+  margin-bottom: 20px;
+}
+
 
 
 
 
 /* register page style  */
 
+#email{
+  margin-bottom: 20px;
+}
 
+.emailDiv{
+  display: flex;
+  gap: 30%;
+}
+
+.confirmPwd{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#register{
+  margin-top: 40px;
+  position: relative;
+  left: 77%;
+  border-radius: 40px;
+  width: 80%;
+  background-color: #F1950A;
+}
 
 
 /* user dashboard style */
